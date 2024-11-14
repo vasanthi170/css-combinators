@@ -1,0 +1,40 @@
+<!--Combinators are also type of selectors.-->
+<!--Combinators are used when there is a parent child relation.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Child Selector</title>
+    <style>
+        .header>h1>span{
+            background-color: rgb(168, 107, 225);
+        }
+        .main{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>One <span>ONE</span></h1>
+        <h2>Two</h2>
+        <h3>Three</h3>
+        <hr>
+    </div>
+    <div class="main">
+        <h1>One</h1>
+        <h2>Two</h2>
+        <h3>Three</h3>
+        <hr>
+    </div>
+    <div class="footer">
+        <h1>One <span>ONE</span></h1>
+        <h2>Two</h2>
+        <h3>Three</h3>
+        <hr>
+    </div>
+</body>
+</html>
+<!--Child Selector is used when we want to apply
+Child Selector is represented by using '>' operator.
+By using this selector we can apply styles Only for direct childs.
+-->
